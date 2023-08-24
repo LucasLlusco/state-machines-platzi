@@ -1,7 +1,6 @@
 import React from 'react'
 import './Tickets.css';
 
-
 const Tickets = ({state, send}) => {
 
   const passengers = state.context.passengers;

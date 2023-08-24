@@ -88,11 +88,11 @@ const bookingMachine = createMachine({
       }
     },
     tickets: {
-      after: { 
+      /*after: { 
         5000: { 
           target: "initial",
         }
-      },
+      },*/
       on: {
         FINISH: {
           target: "initial",
