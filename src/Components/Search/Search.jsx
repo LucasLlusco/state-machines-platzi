@@ -64,7 +64,6 @@ const Search = ({state, send}) => {
           <option value={option.name.common} key={option.name.common}>{option.name.common}</option>
         )}
       </select>
-
       <p className='Search-title title'>A</p>
       <select id="destiny" className='Search-select' value={flight.destiny} onChange={handleSelectDestiny}>
         <option value="" disabled defaultValue>Escoge un país</option>
@@ -84,8 +83,6 @@ const Search = ({state, send}) => {
       </div>
       <button onClick={goToPassengers} disabled={!flight.valid} className='Search-continue button'>Continuar</button>
     </div>
-
-    
   )
 }
 
